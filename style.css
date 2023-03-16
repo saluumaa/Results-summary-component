@@ -364,10 +364,11 @@ body {
     }
 
     .right-holder {
-        background-color: rgb(245, 244, 244);
+        background-color: white;
         margin-top: 10px;
         margin-left: -25px;
         border-radius: 30px;
+        box-shadow: 2px 4px 4px hsla(234, 85%, 45%, 0.3);
     }
 
     .right-holder h2 {
@@ -391,4 +392,5 @@ body {
       .btn {
         margin: 10px 3rem 30px 3rem;
       }
+}
 }
