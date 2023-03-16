@@ -349,7 +349,9 @@ body {
 }
 
 .attribution {
-  margin-top: 3.5rem;
+  position: fixed;
+  bottom: 0;
+  padding-left: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
