@@ -21,6 +21,7 @@ body {
   color: hsl(241, 100%, 89%);
   padding-top: 15px;
   padding-bottom: 12px;
+  font-size: 16px;
 }
 
 .left-holder {
@@ -363,7 +364,7 @@ body {
     }
 
     .right-holder {
-        background-color: whitesmoke;
+        background-color: rgb(245, 244, 244);
         margin-top: 10px;
         margin-left: -25px;
         border-radius: 30px;
