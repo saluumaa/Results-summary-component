@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Results summary component</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,200;0,500;0,700;0,800;1,500;1,800&family=Poppins:wght@300&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <section class="left-holder">
+      <p class="main-text">Your Result</p>
+      <div class="score-circle">
+        <p class="grade">76</p>
+        <span>of 100</span>
+      </div>
+      <p class="greet"> Great</p>
+      <span class="pass-text">You scored higher than 65% of the people who have taken these tests.</span>
+    </section>
+    <section class="right-holder">
+      <h2>Summary</h2>
+      <main class="wrapper">
+        <section class="reaction col">
+          <div class="icon">
+            <img src="assets/images/icon-reaction.svg" alt="reaction-Icon">
+            <h3>Reaction</h3>
+          </div>
+          <div class="summary-score">
+            <p>80</p>
+            <p class="summary-score-right"><span>/</span>100</p>
+          </div>
+        </section>
+        <section class="memory col">
+          <div class="icon">
+            <img src="assets/images/icon-memory.svg" alt="memory-icon">
+            <h3> Memory</h3>
+          </div>
+          <div class="summary-score">
+            <p>92</p>
+            <p class="summary-score-right"><span>/</span>100</p>
+          </div>
+        </section>
+        <section class="verbal col">
+          <div class="icon">
+            <img src="/assets/images/icon-verbal.svg" alt="verbal-icon">
+            <h3>Verbal</h3>
+          </div>
+          <div class="summary-score">
+            <p>61</p> 
+            <p class="summary-score-right"><span>/</span>100</p>
+          </div>
+        </section>
+        <section class="visual col">
+          <div class="icon">
+            <img src="/assets/images/icon-visual.svg" alt="visual-icon">
+            <h3> Visual</h3>
+          </div>
+          <div class="summary-score">
+            <p>72</p>
+            <p class="summary-score-right"><span>/</span>100</p>
+          </div>
+        </section>
+      </main>
+      <button type="button" class="btn">Continue</button>
+    </section>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Salma H. Ibrahim</a>.
+  </div>
+</body>
+</html>
